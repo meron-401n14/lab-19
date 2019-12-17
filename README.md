@@ -3,8 +3,8 @@
 
 ##### Author: Meron
 ###### Links and Resources
-* [Submission-PR]()
-* [travis-ci]()
+* [Submission-PR](https://github.com/meron-401n14/lab-19/pull/1)
+* [travis-ci](https://travis-ci.com/meron-401n14/lab-19/builds/141515822)
 * [AWS S3]()
 * [AWS Amplify]()
 * [Netlify]()
