@@ -1,5 +1,9 @@
 import React from 'react';
 import Converter from './Converter';
+import '../styles/styles.scss';
+
+// <essentially css ++ same syntax, more features (more syntax)
+// .sass < white heavy, a lot like payton
 
 function App() {
     return (

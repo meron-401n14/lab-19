@@ -20,13 +20,13 @@
  * header.js
  * footer.js
  * Converter.js
- * counter.js
+ 
 ###### Exported Values and Methods
  * Converter
  * Header
  * Footer
  * App
- * Conuter
+
 
 
 ###### Setup
