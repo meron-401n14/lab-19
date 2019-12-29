@@ -27,7 +27,7 @@ h4 {
 
   .x-label{
     margin:$spacing-unit--small;
-    @include highlight($theme-color);
+    @include highlight($theme-color-alt);
   }
 }
 
