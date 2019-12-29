@@ -2,27 +2,70 @@
 @import 'mixins';
 
 
+
+body {
+  background-image: url("../converter.jpeg");
+  font: 100% $font-stack;
+  color: $primary-color;
+  font-weight: $w--bold;
+}
+
+h1{
+  color:$theme-color-new;
+  text-align: center;
+}
+
+// mixins 
 h4 {
+  @include rhythm(20, 30);
   color:$theme-color-one;
 }
 
+.container{
+ 
+  align-content: center;
+
+  .x-label{
+    margin:$spacing-unit--small;
+  }
+}
+
+
+// Nesting 
 .converter {
 
-    @include padBoxes(10px);
-    @include border-radius(5px);
+// use mixins here 
+@include center-children;
+@include padBoxes(5px);
+@include border-radius(2px);
 
-    background-color: $theme-color;
-    border: 2px solid$theme-color-alt;
 
-     .heading {
-      border-color:$theme-color
-    }
+  // use color variables here 
+  background-color: $theme-color;
+  border: 2px solid$theme-color-alt;
 
-    .mid-label {
-      color:$theme-color-alt;
-    }
+  // $ space variable here 
+
+  .heading {
+    border-color:$theme-color;
+    margin:$spacing-unit--x-small;
+    
+  }
+  .mid-label {
+    color:$theme-color-alt;
+
+  }
 
 }
+  
+   
+  
+
+      
+      
+
+
+
 
 
 

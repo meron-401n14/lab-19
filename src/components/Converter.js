@@ -1,6 +1,11 @@
 import React from 'react';
 import '../styles/styles.scss';
 
+
+/**
+ * 
+ */
+
 class Converter extends React.Component {
     constructor(props) {
         super(props);
@@ -38,6 +43,7 @@ class Converter extends React.Component {
         let xLabel = this.props.xLabel ? this.props.xLabel : '1';
         let yLabel = this.props.yLabel || '1';
         return (
+            <div className = "container">
             <div className='converter'>
                 <h4 className='converter-heading'>
                     Converting {xLabel} to/from {yLabel}
@@ -65,6 +71,7 @@ class Converter extends React.Component {
 
                     {yLabel}
                 </label>
+            </div>
             </div>
         );
     }
