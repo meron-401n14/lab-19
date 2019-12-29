@@ -23,6 +23,13 @@
     border-radius: $size;
 }
 
+@mixin highlight($theme-color){
+  color: blue;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid rgb(202, 197, 197);
+}
+
 
 //Default value 12 - can be customized to fit project
 @mixin font-size($sizeValue: 12 ){
@@ -43,5 +50,7 @@
 	@include font-size($sizeValue);
 	@include line-height($heightValue);
 }
+
+
 
 
